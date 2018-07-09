@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Precio de tus mejores guitarras!!</title>
+    <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/invie.css">
+  </head>
+  <body>
+    <header id="header" class="header contenedor" >  <!--header-->
+      <figure class="logotipo"> <!--logotipo-->
+        <img  src="C:\Users\Daniel Altamar\Documents\invie desarrollo\images\invie.png" width="186" height="60" alt="Invie logotipo"/>
+      </figure>
+      <nav class="menu"> <!--menu-->
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="index.html#guitarras">guitarras</a>
+          </li>
+          <li>
+            <a href="precios.html">Precios</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  <section class="tabla">
+      <div class="contenedor">
+        <table>
+          <thead>
+            <tr>
+              <th>modelo</th>
+              <th>Precio</th>
+              <th>Descripción</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Invie Classic</td>
+              <td>$100000</td>
+              <td>Una guitarra muy pro</td>
+            </tr>
+            <tr>
+              <td>Invie Classic</td>
+              <td>$100000</td>
+              <td>Una guitarra muy pro</td>
+            </tr>
+            <tr>
+              <td>Invie Classic</td>
+              <td>$100000</td>
+              <td>Una guitarra muy pro</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="contacto">
+          <img src="C:\Users\Daniel Altamar\Documents\invie desarrollo\images\invie-white.png" alt="logotipo blanco"/>
+          <a href="tel:+573104270534"><strong>Teléfono</strong><span>3104270534</span></a>
+          <a href="mailto:contacto@invie.com"><strong>email:</strong><span>contacto@invie.com</span></a>
+        </div>
+        <form class="formulario">
+          <div class="col1">
+            <label for="nombre">Nombre</label>
+              <input type="text"  required id="nombre" name="nombre"/>
+            <label for="email">E-mail</label>
+              <input type="email" required id="email" name="email"  />
+
+            <div class="sexo">
+              <label for="mujer">
+                <input type="radio" checked name="sexo" id="mujer" value="mujer"> mujer
+              </label>
+              <label for="hombre">
+                <input type="radio" checked name="sexo" id="hombre" value="hombre"> hombre
+              </label>
+              <div class="intereses">
+                <label for="cotizacion">
+                  <input type="checkbox" checked name="intereses" id="cotizacion" value="cotizacion"> Cotización
+                </label>
+                <label for="reclamos">
+                  <input type="checkbox" name="intereses" id="reclamos" value="reclamos"> Reclamos
+                </label>
+                <label for="comentarios">
+                  <input type="checkbox" name="intereses" id="comentarios" value="comentarios"> Comentarios
+                </label>
+                <label for="otros">
+                  <input type="checkbox" name="intereses" id="otros" value="otros"> Otros
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col2">
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios" rows="5" cols="30"></textarea>
+            <input type="submit" name="" value="Enviar" class="button"/>
+          </div>
+        </form>
+      </div>
+
+
+    </footer>
+  </body>
+</html>
